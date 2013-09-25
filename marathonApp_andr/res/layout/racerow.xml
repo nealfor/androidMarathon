@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:padding="4dip">
+    <TextView android:id="@+id/eventName"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:gravity="center_vertical"
+		android:textStyle="bold"
+		android:singleLine="true"
+		android:text="Race Name Here" 
+		android:ellipsize="end"
+	/>
+	<TextView android:id="@+id/eventType"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:gravity="center_vertical"
+		android:singleLine="true"
+		android:text="Training Difficulty Here"
+		android:ellipsize="end"
+	/>
+	<TextView android:id="@+id/pace"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:gravity="center_vertical"
+		android:singleLine="true"
+		android:text="8:30 pace"
+		android:ellipsize="end"
+	/>
+
+</LinearLayout>

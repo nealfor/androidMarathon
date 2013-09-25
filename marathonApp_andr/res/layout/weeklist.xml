@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+      
+    <TextView android:id="@+id/weekNumber"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:gravity="center_vertical"
+		android:textStyle="bold"
+		android:singleLine="false"
+		android:text="Race Name Here" 
+		android:background="#FF909090"
+		android:ellipsize="end"
+	/>
+    
+	<View
+        android:id="@+id/horizontalLne"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="#FF909090"
+        android:layout_below="@+id/weekNumber" />
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@+id/horizontalLne">
+	<TableLayout android:id="@+id/daysOfTheWeek"
+	    android:layout_width="250dip"	
+	    android:layout_height="wrap_content"    
+	    android:stretchColumns="0"
+	    >
+	<TableRow >	
+	<TextView android:id="@+id/Monday"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:gravity="center_vertical"
+		android:singleLine="false"
+		android:text="Monday"
+		android:textSize="25dip"
+		android:ellipsize="end"
+	/>
+	</TableRow>
+	<TableRow >	
+	<TextView android:id="@+id/Tuesday"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:gravity="center_vertical"
+		android:singleLine="false"
+		android:text="Tuesday"
+		android:textSize="25dip"
+		android:ellipsize="end"
+	/>
+	</TableRow>
+	<TableRow >	
+	<TextView android:id="@+id/Wednesday"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:gravity="center_vertical"
+		android:singleLine="false"
+		android:text="Wednesday"
+		android:textSize="25dip"
+		android:ellipsize="end"
+	/>
+	</TableRow>
+	<TableRow >	
+	<TextView android:id="@+id/Thursday"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:gravity="center_vertical"
+		android:singleLine="false"
+		android:text="Thursday"
+		android:textSize="25dip"
+		android:ellipsize="end"
+	/>
+	</TableRow>
+	<TableRow >	
+	<TextView android:id="@+id/Friday"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:gravity="center_vertical"
+		android:singleLine="false"
+		android:text="Friday"
+		android:textSize="25dip"
+		android:ellipsize="end"
+	/>
+	</TableRow>
+	<TableRow >	
+	<TextView android:id="@+id/Saturday"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:gravity="center_vertical"
+		android:singleLine="false"
+		android:text="Saturday"
+		android:textSize="25dip"
+		android:ellipsize="end"
+	/>
+	</TableRow>
+	<TableRow >	
+	<TextView android:id="@+id/Sunday"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:gravity="center_vertical"
+		android:singleLine="false"
+		android:text="Sunday"
+		android:textSize="25dip"
+		android:ellipsize="end"
+	/>
+	</TableRow>
+	</TableLayout>    
+	</ScrollView>
+</RelativeLayout>
